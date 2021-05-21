@@ -1,0 +1,4 @@
+exchange_rate = int(input("현재 환율 입력: "))
+won = int(input("환전할 한화: "))
+usd = exchange_rate * won
+print(usd)
